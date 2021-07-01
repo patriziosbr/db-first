@@ -1,0 +1,23 @@
+auto usate
+
+id - int - TINYINT - PRIMARY KEY - A_I
+marca - string - VARCAHR(15) - NOTNULL
+modello - string - VARCAHR(50) - NOTNULL
+primo_anno_produzione - date - DATE - NOTNULL
+ultimo_anno_produzione - date - DATE - NULL
+prezzo - float - FLOAT(7, 2) // 99999,00 NOTNULL
+genere - string - VARCAHR(30) - NULL
+progettazione - string - VARCAHR(32) - NOTNULL
+data_immatricolazione - date - DATE - NOTNULL
+luogo_immatricolazione - string - VARCAHR(30) - NOTNULL 
+quantità - int - TINYINT - DEFAULT 1 
+ruote_motrici - int - TINYINT - DEFAULT 2 
+alimentazione - string - VARCAHR(15) - NOTNULL //benzina - disel - eletric - hibryd
+marce - int - TINYINT - DEFAULT 5
+CC_motore - int - FLOAT(7, 2) - NOTNULL 
+CV_cavalli - float - FLOAT(5, 2) 999,00 - NULL
+valvole_motore - string - VARCAHR(3) - NULL
+colore - string - VARCAHR(25) - NOTNULL 
+colore_metallizato - boolean - TINYINT - DEFAULT 0
+colore_opaco - boolean - TINYINT - DEFAULT 0
+carburazione - string - VARCAHR(15) - NULL  // carburatore - iniezione
