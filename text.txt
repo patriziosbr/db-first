@@ -1,6 +1,7 @@
 auto usate
 
 id - int - TINYINT - PRIMARY KEY - A_I
+targa - string - VARCAHR(10) - NOTNULL - UNIQUE 
 marca - string - VARCAHR(15) - NOTNULL
 modello - string - VARCAHR(50) - NOTNULL
 primo_anno_produzione - date - DATE - NOTNULL
